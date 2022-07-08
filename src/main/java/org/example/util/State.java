@@ -1,5 +1,7 @@
 package org.example.util;
 
 public enum State {
-    NOTCONFIRMED,CONFIRMED;
+    INACTIVE,ACTIVE;
+    //INACTIVE(0),ACTIVE(1);
+    //0 canceled,option 1, confirmed 2
 }
